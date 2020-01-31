@@ -134,7 +134,7 @@ html {
 }
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Cairo', sans-serif;
 }
 body {
   background-color: black;
@@ -145,7 +145,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Cairo', sans-serif;
 }
 h1 {
   font-size: 4rem;
@@ -206,6 +206,14 @@ header .tasty-food-header {
 header .tasty-food-header img {
   width: auto;
 }
+header .sub-sentence {
+  display: flex;
+  justify-content: center;
+  margin-top: 6%;
+}
+header .sub-sentence p {
+  font-size: 2rem;
+}
 footer {
   display: flex;
   justify-content: center;
@@ -226,6 +234,31 @@ footer .pexelsRef a {
   font-size: 1.5rem;
   padding-left: 4%;
   padding-bottom: 8%;
+}
+.top-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+  align-items: center;
+  margin-top: 12%;
+  margin-bottom: 20%;
+}
+.top-section .diningIMG {
+  width: 100%;
+  margin-bottom: 4%;
+}
+.middle-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60vh;
+  align-items: center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.middle-section .redTeaIMG {
+  width: 50%;
 }
 .ui-photo-section {
   display: flex;
