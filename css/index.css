@@ -204,6 +204,9 @@ header a {
   text-decoration: none;
   font-size: 1.9rem;
 }
+header a:hover {
+  opacity: 0.5;
+}
 header .tasty-food-header {
   display: flex;
   flex-direction: column-reverse;
@@ -293,4 +296,8 @@ footer .pexelsRef a {
   border-radius: 50%;
   width: 50%;
   padding-bottom: 4%;
+  filter: grayscale(100%);
+}
+.ui-photo-section .contactNameIMG img:hover {
+  filter: grayscale(0%);
 }
