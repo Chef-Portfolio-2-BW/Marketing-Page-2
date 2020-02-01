@@ -168,21 +168,28 @@ img {
   height: auto;
 }
 .container {
-  max-width: 800px;
   width: 100%;
   margin: 0 auto;
 }
+section p {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+section h2 {
+  margin-left: 4%;
+  margin-right: 4%;
+}
 header nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: black;
 }
 header nav .logo {
-  width: 40%;
+  width: 20%;
 }
-header .peppers-water {
-  width: 30%;
+header .pepperWater {
+  width: 70%;
 }
 header .pepper-fire {
   height: 50vh;
@@ -190,18 +197,18 @@ header .pepper-fire {
 header .navItems {
   width: 50%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 header a {
   color: white;
   text-decoration: none;
-  font-size: 1.7rem;
+  font-size: 1.9rem;
 }
 header .tasty-food-header {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
-  margin-top: 8%;
+  margin-top: 4%;
 }
 header .tasty-food-header img {
   width: auto;
@@ -210,6 +217,7 @@ header .sub-sentence {
   display: flex;
   justify-content: center;
   margin-top: 6%;
+  margin-bottom: 10%;
 }
 header .sub-sentence p {
   font-size: 2rem;
@@ -235,30 +243,37 @@ footer .pexelsRef a {
   padding-left: 4%;
   padding-bottom: 8%;
 }
-.top-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 90vh;
-  align-items: center;
-  margin-top: 12%;
-  margin-bottom: 20%;
-}
 .top-section .diningIMG {
-  width: 100%;
-  margin-bottom: 4%;
+  background-image: url(https://images.pexels.com/photos/1243337/pexels-photo-1243337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
 }
-.middle-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 60vh;
-  align-items: center;
-  margin-top: 4%;
-  margin-bottom: 4%;
+.top-section .community {
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
-.middle-section .redTeaIMG {
-  width: 50%;
+.middle-section .tableIngredientsIMG {
+  background-image: url(https://images.pexels.com/photos/2284166/pexels-photo-2284166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+.middle-section .learn {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.bottom-section .cameraFood {
+  background-image: url(https://images.pexels.com/photos/3584927/pexels-photo-3584927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
 }
 .ui-photo-section {
   display: flex;
