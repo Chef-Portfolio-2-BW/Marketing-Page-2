@@ -185,8 +185,20 @@ header nav {
   align-items: center;
   background-color: black;
 }
+@media (max-width: 665px) {
+  header nav {
+    flex-direction: column-reverse;
+    height: 35vh;
+  }
+}
 header nav .logo {
   width: 20%;
+}
+@media (max-width: 665px) {
+  header nav .logo {
+    width: 70%;
+    padding-top: 12%;
+  }
 }
 header .pepperWater {
   width: 65%;
@@ -198,6 +210,21 @@ header .navItems {
   width: 50%;
   display: flex;
   justify-content: space-around;
+}
+@media (max-width: 965px) {
+  header .navItems {
+    width: 80%;
+  }
+}
+@media (max-width: 665px) {
+  header .navItems {
+    width: 100%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    position: fixed;
+    top: 0;
+    background-color: black;
+  }
 }
 header a {
   color: white;
@@ -216,11 +243,29 @@ header .tasty-food-header {
 header .tasty-food-header img {
   width: auto;
 }
+@media (max-width: 965px) {
+  header .tasty-food-header img {
+    display: none;
+  }
+}
 header .sub-sentence {
   display: flex;
   justify-content: center;
   margin-top: 6%;
   margin-bottom: 10%;
+}
+@media (max-width: 965px) {
+  header .sub-sentence {
+    margin-bottom: 5%;
+  }
+}
+@media (max-width: 665px) {
+  header .sub-sentence {
+    margin-top: 20%;
+    margin-left: 4%;
+    margin-right: 4%;
+    display: none;
+  }
 }
 header .sub-sentence p {
   font-size: 2rem;
@@ -254,9 +299,30 @@ footer .pexelsRef a {
   background-size: cover;
   height: 600px;
 }
+@media (max-width: 965px) {
+  .top-section .diningIMG {
+    height: 300px;
+  }
+}
+@media (max-width: 665px) {
+  .top-section .diningIMG {
+    background-image: url(https://images.pexels.com/photos/3584927/pexels-photo-3584927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 385px;
+    margin-top: 6%;
+    margin-bottom: 2%;
+  }
+}
 .top-section .community {
   margin-top: 10%;
   margin-bottom: 10%;
+}
+@media (max-width: 965px) {
+  .top-section .community {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
 }
 .middle-section .tableIngredientsIMG {
   background-image: url(https://images.pexels.com/photos/2284166/pexels-photo-2284166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
@@ -266,9 +332,25 @@ footer .pexelsRef a {
   background-size: cover;
   height: 600px;
 }
+@media (max-width: 965px) {
+  .middle-section .tableIngredientsIMG {
+    height: 300px;
+  }
+}
+@media (max-width: 665px) {
+  .middle-section .tableIngredientsIMG {
+    display: none;
+  }
+}
 .middle-section .learn {
   margin-top: 10%;
   margin-bottom: 10%;
+}
+@media (max-width: 965px) {
+  .middle-section .learn {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
 }
 .bottom-section .cameraFood {
   background-image: url(https://images.pexels.com/photos/3584927/pexels-photo-3584927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
@@ -277,6 +359,16 @@ footer .pexelsRef a {
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
+}
+@media (max-width: 965px) {
+  .bottom-section .cameraFood {
+    height: 300px;
+  }
+}
+@media (max-width: 665px) {
+  .bottom-section .cameraFood {
+    display: none;
+  }
 }
 .ui-photo-section {
   display: flex;

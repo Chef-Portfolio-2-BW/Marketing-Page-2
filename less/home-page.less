@@ -15,12 +15,37 @@
             background-repeat: no-repeat;
             background-size: cover;
             height: 600px;
+
+                @media @tablet {
+                    height: 300px;
+                }
+
+                @media @mobile {
+                    
+                    background-image: url(https://images.pexels.com/photos/3584927/pexels-photo-3584927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+                    background-attachment: scroll;
+                    // background-position: center;
+                    background-repeat: no-repeat;
+                    // background-size: 600px;
+                    height: 385px;
+                    margin-top: 6%;
+                    margin-bottom: 2%;
+                }
             
         }
 
         .community{
             margin-top: 10%;
             margin-bottom: 10%;
+
+                @media @tablet {
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                }
+
+                @media @mobile {
+                    
+                }
         }
         
 }
@@ -41,11 +66,24 @@
             background-repeat: no-repeat;
             background-size: cover;
             height: 600px;
+
+            @media @tablet {
+                height: 300px;
+            }
+
+            @media @mobile {
+                display: none;
+            }
         }
 
         .learn{
             margin-top: 10%;
             margin-bottom: 10%;
+
+            @media @tablet {
+                margin-top: 5%;
+                margin-bottom: 5%;
+            }
         }
 
 }
@@ -58,6 +96,14 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 600px;
+
+        @media @tablet {
+            height: 300px;
+        }
+
+        @media @mobile {
+            display: none;
+        }
     }
 }
 

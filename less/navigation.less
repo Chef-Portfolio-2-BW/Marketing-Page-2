@@ -4,9 +4,19 @@ header {
         justify-content: space-around;
         align-items: center;
         background-color: black;
+
+            @media @mobile {
+                flex-direction: column-reverse;
+                height: 35vh;
+            }
        
         .logo {
             width: 20%;
+
+            @media @mobile {
+                width: 70%;
+                padding-top: 12%;
+            }
         }
    } 
 
@@ -24,6 +34,20 @@ header {
        width: 50%;
        display: flex;
        justify-content: space-around;
+
+            @media @tablet {
+                width: 80%;
+            }
+
+            @media @mobile {
+                width: 100%;
+                padding-top: 6%;
+                padding-bottom: 6%;
+                position: fixed;
+                top: 0;
+                background-color: black;
+                
+            }
    }
     a {
        color: white;
@@ -42,6 +66,11 @@ header {
        margin-top: 4%;
        img{
            width: auto;
+
+            @media @tablet {
+                display: none;
+            }
+            
        }
        
    }
@@ -50,6 +79,17 @@ header {
     justify-content: center;
     margin-top: 6%;
     margin-bottom: 10%;
+
+    @media @tablet {
+        margin-bottom: 5%;
+    }
+
+    @media @mobile{
+        margin-top: 20%;
+        margin-left: 4%;
+        margin-right: 4%;
+        display: none;
+    }
 
         p{
             font-size: 2rem;
