@@ -203,9 +203,6 @@ header nav .logo {
 header .pepperWater {
   width: 65%;
 }
-header .pepper-fire {
-  height: 20vh;
-}
 header .navItems {
   width: 50%;
   display: flex;
@@ -310,7 +307,6 @@ footer .pexelsRef a {
   .top-section .diningIMG {
     background-image: url(https://images.pexels.com/photos/3584927/pexels-photo-3584927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-attachment: scroll;
-    background-repeat: no-repeat;
     height: 385px;
     margin-top: 6%;
     margin-bottom: 2%;
@@ -374,15 +370,15 @@ footer .pexelsRef a {
 }
 .ui-photo-section {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
   margin-top: 8%;
 }
 .ui-photo-section .contactNameIMG {
   display: flex;
+  justify-content: center;
   width: 30%;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding-bottom: 6%;
 }

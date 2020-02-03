@@ -3,7 +3,7 @@ header {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        background-color: black;
+        background-color: @bg-color;
 
             @media @mobile {
                 flex-direction: column-reverse;
@@ -19,18 +19,11 @@ header {
             }
         }
    } 
-
-
-
-   .pepperWater {
+    .pepperWater {
        width: 65%;
    }
 
-   .pepper-fire {
-       height: 20vh;
-   }
-
-   .navItems{
+    .navItems{
        width: 50%;
        display: flex;
        justify-content: space-around;
@@ -45,40 +38,36 @@ header {
                 padding-bottom: 6%;
                 position: fixed;
                 top: 0;
-                background-color: black;
+                background-color: @bg-color;
                 overflow: hidden;
                 z-index: 1;
-                
-            }
+                }
+
    }
     a {
-       color: white;
+       color: @font-color;
        text-decoration: none;
        font-size: 1.9rem;
-   }
-
-    a:hover{
+       }
+    a:hover {
         opacity: 0.5;
     }
-
-   .tasty-food-header {
+    .tasty-food-header {
        display: flex;
        flex-direction: column-reverse;
        align-items: center;
        margin-top: 4%;
-       img{
+       img {
            width: auto;
 
             @media @tablet {
                 display: none;
             }
             
-       }
-       
-   }
+        }
+    }
    .sub-sentence{
-    display: flex;
-    justify-content: center;
+    .justify-center();
     margin-top: 6%;
     margin-bottom: 10%;
 
@@ -93,9 +82,9 @@ header {
         display: none;
     }
 
-        p{
-            font-size: 2rem;
+    p {
+        font-size: 2rem;
         }
-}
+    }
    
 }

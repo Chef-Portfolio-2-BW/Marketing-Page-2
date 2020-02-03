@@ -1,40 +1,23 @@
 
 .top-section {
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-between;
-    // height: 90vh;
-    // align-items: center;
-    // margin-top: 12%;
-    // margin-bottom: 20%;
-
-        .diningIMG {
-            background-image: url(https://images.pexels.com/photos/1243337/pexels-photo-1243337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 600px;
+    .diningIMG {
+        background-image: url(https://images.pexels.com/photos/1243337/pexels-photo-1243337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+        .parallax(600px);
 
                 @media @tablet {
                     height: 300px;
                 }
 
                 @media @mobile {
-                    
                     background-image: url(https://images.pexels.com/photos/3584927/pexels-photo-3584927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
                     background-attachment: scroll;
-                    // background-position: center;
-                    background-repeat: no-repeat;
-                    // background-size: 600px;
                     height: 385px;
                     margin-top: 6%;
                     margin-bottom: 2%;
                 }
+             }
             
-        }
-
-        .community{
+            .community{
             margin-top: 10%;
             margin-bottom: 10%;
 
@@ -42,30 +25,15 @@
                     margin-top: 5%;
                     margin-bottom: 5%;
                 }
-
-                @media @mobile {
-                    
-                }
-        }
-        
+        }    
 }
 
-.middle-section {
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-between;
-    // height: 60vh;
-    // align-items: center;
-    // margin-top: 4%;
-    // margin-bottom: 4%;
 
-        .tableIngredientsIMG {
+
+.middle-section {
+    .tableIngredientsIMG {
             background-image: url(https://images.pexels.com/photos/2284166/pexels-photo-2284166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 600px;
+            .parallax(600px);
 
             @media @tablet {
                 height: 300px;
@@ -85,18 +53,14 @@
                 margin-bottom: 5%;
             }
         }
-
 }
+
 
 .bottom-section{
     .cameraFood{
         background-image: url(https://images.pexels.com/photos/3584927/pexels-photo-3584927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 600px;
-
+        .parallax(600px);
+    
         @media @tablet {
             height: 300px;
         }
@@ -111,21 +75,17 @@
 
 
 
-// About Us Page
+// Staff Page
 
 
 .ui-photo-section {
-    display: flex;
+    .justify-center();
     flex-wrap: wrap;
-    justify-content: center;
     margin-top: 8%;
-        
-        
         .contactNameIMG {
-            display: flex;
+            .justify-center();
             width: 30%;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
             padding-bottom: 6%;
 
@@ -133,23 +93,20 @@
                 width: 50%;
             }
 
-            a{
-                display: flex;
-                justify-content: center;
+            a {
+                .justify-center();
                 align-items: center;
             }
-
-              img {
+            img {
                 border-radius: 50%;
                 width: 50%;
                 padding-bottom: 4%;
                 filter: grayscale(100%);
-                
-              }
+                }
 
-              img:hover{
-                  filter: grayscale(0%);
-              }
+            img:hover {
+                filter: grayscale(0%);
+                }
         }
 }
 
