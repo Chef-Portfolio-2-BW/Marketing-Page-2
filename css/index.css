@@ -292,6 +292,11 @@ footer .pexelsRef a {
   align-items: center;
   padding-bottom: 6%;
 }
+.ui-photo-section .contactNameIMG a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .ui-photo-section .contactNameIMG img {
   border-radius: 50%;
   width: 50%;
