@@ -387,6 +387,11 @@ footer .pexelsRef a {
 }
 @media (max-width: 965px) {
   .ui-photo-section .contactNameIMG {
+    width: 40%;
+  }
+}
+@media (max-width: 665px) {
+  .ui-photo-section .contactNameIMG {
     width: 50%;
   }
 }
