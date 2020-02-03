@@ -224,6 +224,8 @@ header .navItems {
     position: fixed;
     top: 0;
     background-color: black;
+    overflow: hidden;
+    z-index: 1;
   }
 }
 header a {
@@ -383,6 +385,11 @@ footer .pexelsRef a {
   justify-content: center;
   align-items: center;
   padding-bottom: 6%;
+}
+@media (max-width: 965px) {
+  .ui-photo-section .contactNameIMG {
+    width: 50%;
+  }
 }
 .ui-photo-section .contactNameIMG a {
   display: flex;
