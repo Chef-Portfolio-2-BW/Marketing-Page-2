@@ -201,7 +201,12 @@ header nav .logo {
   }
 }
 header .pepperWater {
-  width: 65%;
+  width: 50%;
+}
+@media (max-width: 1165px) {
+  header .pepperWater {
+    width: 65%;
+  }
 }
 header .navItems {
   width: 50%;
